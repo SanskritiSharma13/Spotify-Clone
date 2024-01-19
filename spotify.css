@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 30px;
+    padding: 0 8px;
+}
+
+.container {
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    margin: 18px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url('/Spotify Clone/spotify images/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom {
+    height: 74px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#progress_bar {
+    width: 70%;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.icon i {
+    padding: 0 5px;
+}
+.song_list h2{
+    margin-left: 50px;
+    font-weight: lighter;
+}
+.song_item_container {
+    margin-top: 30px ;
+}
+
+.song_item {
+    height: 40px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 8px 0;
+    width: 270px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.song_item img {
+    height: 37px;
+    border-radius: 20px;
+}
+
+.timezone i {
+    cursor: pointer;
+}
+.song_info{
+position: absolute;
+left: 33vh;
+display: flex;
+margin-top: 34px;
+align-items: center;
+justify-content: center;
+}
+.song_info img{
+opacity: 0;
+}
